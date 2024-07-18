@@ -1,0 +1,96 @@
+/* *{
+    border: 1px solid red;
+} */
+
+body{
+    background-color: rgb(250, 249, 249);
+}
+
+.purple-color{
+    color: rgb(75, 36, 75);
+}
+
+.border-red{
+    border: 2px solid red;
+}
+
+.bg-color{
+    background-color: rgb(75, 36, 75);
+}
+
+.bg-color-white{
+    background-color: rgb(246, 244, 243);
+}
+
+#my-container{
+    width: 100%;
+    max-width: 816px;
+    margin: 0 auto;
+    background-color: rgb(17, 61, 61);
+}
+
+.btn-bg{
+    background-color: rgb(233, 226, 225);
+}
+
+.color-light{
+    color: rgb(116, 88, 116);
+}
+
+.border-color{
+    border-color: rgb(233, 226, 225);
+}
+
+.section-bg{
+    background-color: rgb(241, 238, 237);
+}
+
+.heading-color{
+    color: rgb(83, 39, 83);
+}
+
+.button-bg{
+    background-color: rgb(83, 39, 83);
+}
+
+.white{
+    color: #fff;
+}
+
+.page-header {
+    border-bottom: 1px dashed rgb(211, 198, 196);
+ }
+
+ .p-color{
+    color: rgb(116, 88, 116);
+ }
+
+.img-bg-light{
+    background-color: rgb(233, 226, 225);
+} 
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
